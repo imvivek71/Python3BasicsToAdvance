@@ -2,7 +2,7 @@
 We can use  int type  to represent whole numbers.(integral values)
 We can represent  in following ways:
 
-Decimlal
+Decimal
 Binary
 Hexa
 Octal
