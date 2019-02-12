@@ -36,9 +36,9 @@ while i>=0:
 print(newstr)
 
 
-#
+# For list using slice
 
+a = [8,1,2,3,4,5,6,7]
 
-
-
+print(a[::-1])
 
