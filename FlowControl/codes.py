@@ -4,7 +4,6 @@ WAP for reverse string by more than 3 way
 """
 # For reverse 1st way Extended Slice Method [start,stop,step]
 
-
 x = 'abcderfghijkl'
 print(x[::-1])
 
@@ -27,7 +26,18 @@ print(x[0:2]+y[::-1])
 print(''.join(reversed(x)))
 
 
-# 3rd Way
+# 3rd Way using looping method
+
+i = len(x)-1
+newstr = ''
+while i>=0:
+    newstr +=x[i]
+    i = i-1
+print(newstr)
+
+
+#
+
 
 
 
