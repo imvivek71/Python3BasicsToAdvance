@@ -1,7 +1,7 @@
 """""
-for loop - If we want to iterate till some sequence
+for loop - If we want to iterate till some sequence /Repeat code for every time in sequence
 
-while loop - if we want till a condition true or false
+while loop - if we want till a condition true or false/ Repeat code as long as condition is true
 
 
 """
