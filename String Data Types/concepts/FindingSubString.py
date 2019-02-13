@@ -38,4 +38,4 @@ print(type(a.split()))
 
 print(''.join(a.split()))
 print(','.join(a.split()))  # We can use separator as ,
-print(type (a))
+print(type(a))
