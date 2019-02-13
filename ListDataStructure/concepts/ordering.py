@@ -5,6 +5,9 @@
 
 x = [1,2,3,4,5,6]
 x.reverse()
+# to find min and max
+
+print(min(x),max(x))
 print(x)
 print(x[::-1])
 y = []
