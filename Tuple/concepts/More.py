@@ -23,3 +23,18 @@ print(l1)
 l2 = l
 l.add(125)
 print(l,l2,l1)
+
+# remove() to remove a specific number from the set, but will give key error message when it is not in set
+l.remove(125)
+print(l)
+
+# discard() to remove an element and no error messages
+
+l.discard(7)
+l.discard(1000) # we did not get error warning while element is not available in the set
+print(l)
+
+
+l.clear() # it is used to clear the set
+
+print(l)
