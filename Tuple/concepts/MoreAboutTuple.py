@@ -21,3 +21,14 @@ print(x)
 # to find min and max
 
 print(min(x),max(x))
+
+
+t = 10,120,130,5 # tuple packing
+
+a,b,c,d, = t # tuple unpacking
+
+print(t,a,b,c,d)
+
+
+# Tuple comprehension not supported by Python
+
