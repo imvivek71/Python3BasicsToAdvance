@@ -34,7 +34,7 @@ print(a.lstrip())  # for left space
 
 
 
-# Finding sub strings
+
 
 
 
