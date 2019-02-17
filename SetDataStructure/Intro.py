@@ -21,3 +21,45 @@ x = {}  # empty set is treated as dict
 print(type(x))
 x = set()   # creating an empty set ds
 print(type(x))
+
+# Functions  used in set
+
+
+# add(x)
+s.add(30)
+print(s)
+
+# update(x,y,z) -  To add multiple values single time,  but should be iterable
+ls = [23,3,44,45,45,45]
+s.update(ls,range(5))
+print(s)
+
+
+# copy()
+x =s
+s1 = s.copy()
+print(s1)
+
+# pop() it removes and return some random elements
+
+print(s.pop())
+print(s)
+print(s1)
+print(s)
+
+# remove() it removes some specified elements(If not will give a value error) in set
+
+s.remove(10)
+print(s)
+
+
+# discard() it removes some specified elements(If not will not give an error) in set
+
+s.discard(1)
+s.discard(1)
+print(s)
+
+# clear() to remove all the elements of the set
+
+s.clear()
+print(s)
