@@ -48,8 +48,41 @@ def greet(place,name="morning"): #valid
 
 
 
-# Variable Length arguments
+# Variable Length arguments we can call this function by passing any number of arguments including zero number
 
+# internally all values represented in form of tuple
+
+def Mult(*n):
+    result = 1
+    for x in n:
+        result = result*x
+    print(result)
+
+Mult(10,10)
+Mult(12,1,21,12,2)
+
+
+# We can mix variable length argmnt with positional:
+
+
+def Mult(n1, *s):
+    result = 1
+    for x in s:
+        result = result*x
+    print(result)
+
+Mult(10,20,30,20)
+
+
+# After variable length argmnt if we are taking any other argmnt then we should give keyword type argmnts otherwise error
+
+def Mult2(*s,n1):
+    result = 1
+    for x in s:
+        result = result*x
+    print(result)
+
+Mult2(10,20,30,20, n1=20)
 
 
 
