@@ -10,4 +10,3 @@ for i in range(len(lis)):
 
 
 print(' '.join(m))
-
