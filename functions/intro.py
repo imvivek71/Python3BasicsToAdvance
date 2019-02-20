@@ -8,6 +8,10 @@ unit and we can call these unit any times and this unit is called function(in ot
 There are two types of functions Built in(len(),type()) and user defined
 
 
+A group of lines with some name is called function
+A group of functions save to a file called Module
+A group of modules is nothing just a library
+
 """
 
 # User defined - The functions developed explicitly according to needs
