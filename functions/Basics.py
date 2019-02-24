@@ -8,11 +8,6 @@ In following example You can see the example of a factorial using recursion
 
 """
 
-
-
-
-
-
 def Recursion(num):
     if num ==1 or num ==0:
         return 1
@@ -22,3 +17,4 @@ def Recursion(num):
 num = int(input('Enter any number for factorial'))
 
 print(Recursion(num))
+
