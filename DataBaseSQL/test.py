@@ -9,6 +9,10 @@ mydb = mysql.connector.connect(
 print(mydb)
 mycursor = mydb.cursor()
 mycursor.execute("SHOW TABLES")
+# for many queries
+
+record =mycursor.fetchall()
+print(record)
 
 
 for tb in mycursor:
