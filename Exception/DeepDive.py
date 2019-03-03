@@ -1,7 +1,7 @@
 
 try:
     print('try')
-    x = 10/0
+    x = 10/1
 except:
     print('Except')
 else:

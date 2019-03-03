@@ -21,7 +21,7 @@ print(lst)
 def Myfun2(x):
 
 
-    # After below line link of x with previous
+    # After below line link of x with previous..
 
     # object gets broken. A new object is assigned
     # to x.
