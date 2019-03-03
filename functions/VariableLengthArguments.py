@@ -10,10 +10,11 @@ MyFun(12,2,23,43)
 MyFun(10,12,2,23,43)
 
 
-def MyFun1(m = 18,**n):
+def MyFun1(m,**n):
     for items in n.items():
         print(items)
         print(m)
+    print(n)    # Result a dictionary
 
 MyFun1(x = 'Vivek',y = 'Varsha', z = 'devloper')
 
@@ -22,5 +23,7 @@ MyFun1(x = 'Vivek',y = 'Varsha', z = 'devloper')
 #  MyFun1(10,x = 'Vivek',y = 'Varsha', z = 'devloper')  This does not take any positional argument
 
 
-def MyFun3(m,*n):   # this is also valid
-   pass
+def MyFun3(*n,l):   # this is also valid
+   print(n, l)
+MyFun3(1,2,3,4,l=10)
+
