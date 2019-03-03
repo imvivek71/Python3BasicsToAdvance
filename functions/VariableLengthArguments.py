@@ -23,14 +23,14 @@ MyFun1(10,x = 'Vivek',y = 'Varsha', z = 'devloper')
 #  MyFun1(10,x = 'Vivek',y = 'Varsha', z = 'devloper')  This does not take any positional argument
 
 
-def MyFun3(*n,l):   # this is also valid
+def myFun3(*n,l):   # this is also valid
    print(n, l)
-MyFun3(1,2,3,4,l=10)
+myFun3(1,2,3,4,l=10)
 
 
 # Program to find the multiplication of any number by using a input function *args
 
-def Mult(*n):
+def mult(*n):
     act =1
     if len(n)==1:
         print(n)
@@ -38,4 +38,4 @@ def Mult(*n):
     for x in n:
         act *=x
     print(act)
-Mult(1,2,3,4,4,4)
+mult(1,2,3,4,4,4)
