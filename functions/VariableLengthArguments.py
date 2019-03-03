@@ -1,7 +1,7 @@
 #   We can have both normal and keyword  variable number arguments for only multiple we will take *args
 #   and for both **kwargs
 
-def MyFun(m =10,*n):      #  we can give arguments with *args
+def MyFun(m,*n):      #  we can give arguments with *args
 
     for items in n:
         print(items,end=' ')
@@ -16,7 +16,7 @@ def MyFun1(m,**n):
         print(m)
     print(n)    # Result a dictionary
 
-MyFun1(x = 'Vivek',y = 'Varsha', z = 'devloper')
+MyFun1(10,x = 'Vivek',y = 'Varsha', z = 'devloper')
 
 # O/P  ('x', 'Vivek') ('y', 'Varsha') ('z', 'devloper')
 
@@ -27,3 +27,15 @@ def MyFun3(*n,l):   # this is also valid
    print(n, l)
 MyFun3(1,2,3,4,l=10)
 
+
+# Program to find the multiplication of any number by using a input function *args
+
+def Mult(*n):
+    act =1
+    if len(n)==1:
+        print(n)
+        return 1
+    for x in n:
+        act *=x
+    print(act)
+Mult(1,2,3,4,4,4)
