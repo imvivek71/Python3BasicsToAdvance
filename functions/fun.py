@@ -3,7 +3,7 @@
 
 
 """
-def fun(x,y):
+def fun(x,y): #
      c  = 30
      z = 11
      print(c,z)

@@ -26,4 +26,3 @@ print('{0:.4f}'.format(x))
 
 print(round(x, 3))
 
-
