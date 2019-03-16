@@ -1,18 +1,14 @@
 def even(a):
-    if a == 'v':
+    if a%2==0:
         return True
+    else:
+        return False
 
 
 a = [10,15,20,25,30,35,40,50]
-c = 'vivekgoswami'
-b = list(filter(even, c))
+b = list(filter(even, a))
 
-print(b)
-x =[]
-for i in a:
-    if i%2==0:
-        x.append(i)
-print(x)
+x = [10,15,20,25,30,35,40,50]
 
 for r in a:
     if r%2!=0:
@@ -21,7 +17,6 @@ print(a)
 
 a = [10,15,20,25,30,35,40,50]
 
-#print(a.remove(i for i in a))
 
 l = list(filter(lambda a:a%2==0,a))
 

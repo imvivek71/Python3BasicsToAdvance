@@ -20,3 +20,12 @@ print(globals())
 globals()['a']=100
 
 print(a)
+
+
+def odd(a):
+    if a%2!=0:
+        return True
+a =[10,20,22,2,11,12,13,17,12,11,11,11]
+z = set(filter(odd,a))
+
+print(z)
