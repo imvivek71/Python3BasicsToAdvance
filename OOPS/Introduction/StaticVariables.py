@@ -22,3 +22,11 @@ z = Number()
 z.ashu()
 z.Sta()
 z.Cls()
+
+# Cloning
+
+a = [1,2,3,4,5]
+x =a.copy()
+y =a[:]
+a.append(10)
+print(a,x,y)
