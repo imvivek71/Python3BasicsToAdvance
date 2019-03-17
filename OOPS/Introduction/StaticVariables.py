@@ -1,11 +1,12 @@
 class Number:
     a = 10
     def __init__(self):
-        Number.b = 20
-        print(Number.b)
+        Number.a = 20
+        print(Number.a)
+        del Number.a
     def ashu(self):
-        Number.c = 30
-        print(Number.c)
+        Number.a = 30
+        print(Number.a)
     @staticmethod
     def Sta():
         Number.d = 40
@@ -16,17 +17,17 @@ class Number:
         cls.e = 100
         Number.x = 120
         print(cls.e, Number.x)
+    def displayall(self):
+        print(Number.a,Number.a)
 
 
 z = Number()
 z.ashu()
 z.Sta()
 z.Cls()
+z.displayall()
+print('Delete ', z.a)
 
-# Cloning
-
-a = [1,2,3,4,5]
-x =a.copy()
-y =a[:]
-a.append(10)
-print(a,x,y)
+print(Number.__dict__)
+del Number.a
+print(Number.__dict__)
