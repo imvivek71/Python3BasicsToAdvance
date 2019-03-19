@@ -1,6 +1,6 @@
 
 def selectionsort():
-    y = [10, 20, 8, 9, 11, 11, 2, 3, 4]
+    y = [1,2,3,4,4,1,2,2323,329,9,7,5]
     length = len(y)
 
     for k in range(length):
