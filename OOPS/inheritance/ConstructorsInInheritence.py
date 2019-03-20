@@ -32,6 +32,6 @@ class D(B, A):    # This will call constructor of B bcz it works from left to ri
         super().__init__()
         print('This is the cont. of D class')
 
-z = D()
 
+z = D()
 
