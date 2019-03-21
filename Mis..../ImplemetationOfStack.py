@@ -3,8 +3,8 @@ Principle of “Last-in, first-out”, to push an item, we use append() function
 
 
 """
+stack = ['A','B','C']
 
-stack = ['A', 'B', 'C']
 stack.append('D')  # pushing an item
 
 stack.append('E')  # pushing an item

@@ -7,4 +7,3 @@ l =[1,2,3,4,5,5,6,66]
 l2 = reduce(lambda x,y:x+y,l)
 
 print(l2)
-
