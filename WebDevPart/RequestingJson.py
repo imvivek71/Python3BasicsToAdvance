@@ -13,3 +13,4 @@ print(type(response.text))  # class str
 print(response.json())  # This will give the output in dictionary fromat
 
 print(type(response.json()))
+
