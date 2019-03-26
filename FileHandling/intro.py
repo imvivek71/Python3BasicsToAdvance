@@ -16,6 +16,3 @@ data = x.read()
 print(data)
 
 
-
-
-
