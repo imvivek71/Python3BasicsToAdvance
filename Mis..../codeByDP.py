@@ -12,6 +12,7 @@ c = functools.reduce(lambda x,y:x+y, b)
 print(b,' ',c)
 ###################################
 
+
 # Precision handling
 
 x = 3.45678
