@@ -17,3 +17,4 @@ print(stack)
 print(stack.pop())
 print(stack)
 
+
