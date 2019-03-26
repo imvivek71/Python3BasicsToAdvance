@@ -16,6 +16,7 @@ class Number:
     @staticmethod
     def Sta():
         Number.d = 40
+        
         print(Number.d)
 
     @classmethod
