@@ -17,3 +17,5 @@ print(record)
 
 for tb in mycursor:
     print(tb)
+
+    
