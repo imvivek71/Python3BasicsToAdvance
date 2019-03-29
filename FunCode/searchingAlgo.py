@@ -18,6 +18,7 @@ def binaryserach(a,e):
             return e
     return "Number is not in list"
 
+
 a = [[1, 1, 2, 2, 3, 4, 4, 5, 7, 9, 329, 2323]]
 
 print(binaryserach(a,[2323]))
