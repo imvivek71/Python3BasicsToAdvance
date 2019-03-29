@@ -1,3 +1,10 @@
+# Thread - thread is a smallest executable unit of a program
+# Process - It is a executable unit of any task
+# MAny process together Multiprocessing
+# Many threads together Multitasking
+
+
+
 import time
 import threading
 def square(numbers):
