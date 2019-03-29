@@ -12,5 +12,3 @@ response = requests.get('https://icanhazdadjoke.com/search',
 
 print(response.json())
 
-
-
